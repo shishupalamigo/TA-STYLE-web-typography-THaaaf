@@ -1,0 +1,147 @@
+<!-- writeCode
+
+- Create an insurance website according to the layout shown below.
+
+![Web Typography Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/web-typography/ex-2.png)
+
+### Typography
+
+**Heading**
+
+Font Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display?query=dm+se)
+
+**Body**
+
+Font Family: [Karla](https://fonts.google.com/specimen/Karla?query=karla)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+- Work on typography in detail. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment II | Web Typography</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <!-- FONT AWSOME ICONS -->
+    <script src="https://kit.fontawesome.com/d77ac583c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="page-header container flex">
+        <h3>ProInsure</h3>
+        <nav class="header-nav">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="" class="btn">View Plans</a>          
+        </nav>
+    </header>
+    <section class="hero-section flex">
+           <div class="hero-section-info">
+               <hr>
+               <h1>Humanizing Your Insurance</h1>
+               <p>
+                   Insurers' business model aims to collect more in premium and investment
+                   income than is paid out in losses, and to also offer a competitive price
+                   which consumers  will accept.
+               </p>
+               <a href="#" class="btn">VIEW PLANS</a>
+           </div>
+           <div class="hero-image">
+               <img src="assets/01.png" alt="">
+           </div>     
+    </section>
+    <main class="main">
+        <section class="container flex content-section">
+            <div class="section-image">
+                <img src="assets/02.png" alt="">
+            </div>
+            <article class="about">
+                <h2>About the Insure</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis 
+                    aspernatur corrupti quis voluptatem dolorem ea nemo harum modi. 
+                    Temporibus sit qui numquam molestiae eius atque error dolorem totam 
+                    mollitia cumque dolor nam, delectus est tempora ratione dignissimos, 
+                    possimus architecto in vitae voluptas, nisi voluptatibus consequatur 
+                    repudiandae. Repellat, ipsum. Sed.
+                </p>
+                <a href="#" class="btn">Know More</a>
+            </article>
+        </section>
+        <section class="container different-section">
+            <header class="different-header">
+                <hr>
+                <h2>We Are Different</h2>
+            </header>
+            <div class="flex">
+                <article class="discription">
+                    <div class="icon-div">
+                    <i class="fas fa-cog"></i>
+                    </div>
+                    <h4>Easy Process</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Molestias harum nobis vel corporis, fuga quam laudantium 
+                        id eaque quo itaque possimus. Quae perferendis eos optio 
+                        unde dolores praesentium quos perspiciatis?
+                    </p>
+                </article>
+                 <article class="discription">
+                    <div class="icon-div">
+                    <i class="fas fa-cog"></i>
+                    </div>
+                    <h4>Affordable Price </h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Molestias harum nobis vel corporis, fuga quam laudantium 
+                        id eaque quo itaque possimus. Quae perferendis eos optio 
+                        unde dolores praesentium quos perspiciatis?
+                    </p>
+                </article>
+                <article class="discription">
+                    <div class="icon-div">
+                    <i class="fas fa-cog"></i>
+                    </div>
+                    <h4>You come First</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Molestias harum nobis vel corporis, fuga quam laudantium 
+                        id eaque quo itaque possimus. Quae perferendis eos optio 
+                        unde dolores praesentium quos perspiciatis?
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section class="work flex">
+            <h2>Find Out more about how we work</h2>
+            <a href="#" class="btn">HOW WE WORK</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="container">
+            <div class="flex footer-div">
+                <h4>ProInsure</h4>
+                <nav>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                </nav>
+            </div>
+            <hr>
+            <nav class="flex">
+                <a href="index.html">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                 <a href="#">How We Work</a>
+            </nav>
+        </section>
+        <div class="small-container flex">
+            <small class="small">
+                &copy;AltCampus Services Pvt Ltd, 2018-present.
+            </small>
+        </div>
+    </footer>
+</body>
+</html>
