@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET ENDS HERE */
+
+/* CUSTOM STYLES  */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+
+/* BODY */
+body {
+    line-height: 1.5;
+    font-family: 'Karla', sans-serif;
+}
+/* HEADERS FONT FAMILY  */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Serif Display', serif;
+}
+/* CONTAINER */
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 5em;
+}
+/* FLEX  */
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* BUTTON */
+.btn {
+   text-decoration: none;
+   border: 1px solid rgb(82, 80, 80);
+   padding: .35em .5em;
+   border-radius: 3px;
+   margin-left: .5em;
+}
+/* ANCHOR TAGS */
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 1em;
+}
+/* PAGE HEADER */
+.page-header {
+	justify-content: space-between;
+	padding-top: 1em;
+}
+.page-header h3 {
+	font-size: 24px;
+	font-weight: 900;
+}
+/* HERO SECTION */
+.hero-section {
+	background-color: #2D2640;
+	height: 60vh;
+	color: #fff;
+	justify-content: space-between;
+}
+.hero-section h1 {
+	font-size: 48px;
+	font-weight: 900;
+	padding-bottom: .5em;
+}
+.hero-section-info {
+	width: 34%;
+	padding-left: 5em;
+}
+.hero-section-info hr {
+	width: 40%;
+	color: #fff;
+	margin-top: 2em;
+	text-align: left;
+	display: inline-block;
+}
+.hero-section-info  a {
+    color: #fff;
+	display: inline-block;
+	margin-top: 1em;
+}
+/* HERO SECTION IMAGE */
+.hero-image {
+	position: absolute;
+	right: 0;
+	top: 6em;
+}
+.hero-image img {
+	width: 85%;
+}
+/* CONTENT SECTION */
+.content-section {
+	margin-top: 10em;
+	justify-content: space-between;
+}
+.section-image {
+	width: 40%;
+}
+.about {
+	width: 42%;
+}
+.about h2{
+	font-size: 40px;
+	font-weight: 900;
+}
+.about p {
+	font-weight: 100;
+	color: #6A6970;
+}
+.about a {
+	display: inline-block;
+	margin-top: 1.5em;
+	color: #6A6970;
+	font-weight: 700;
+	padding: .75em;
+}
+/* WE ARE DIFFERRENT  SECTION */
+.different-section {
+	margin-top: 3em;
+}
+.different-section hr {
+    width: 10%;
+	color: #fff;
+	margin-top: 2em;
+	text-align: left;
+	display: inline-block;
+}
+.different-section h2 {
+	font-size: 36px;
+	font-weight: 900;
+	margin-bottom: 1em;
+}
+/* DESCRIPTION SECTION */
+.discription {
+	margin: 0 1em 2em 0;
+	
+}
+.icon-div {
+	width: 50px;
+	height: 50px;
+	background-color: #8AB4F0;
+	border-radius: 50%;
+	position: relative;
+}
+.icon-div i {
+	color: #fff;
+	font-size: 24px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+.discription h4 {
+	font-size: 24px;
+	font-weight: 900;
+	margin: .5em 0;
+}
+.discription p {
+	font-weight: 100;
+	color: #6A6970;
+}
+/* HOW WE WORK SECTION */
+.work {
+	height: 30vh;
+	background-color: #2D2640;
+	margin: 1em 5em;
+	justify-content: space-between;
+}
+.work h2 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #fff;
+	text-transform: capitalize;
+	width: 50%;
+	padding-left: 1em;
+	
+}
+.work a {
+	color: #fff;
+	margin-right: 1.5em;
+	padding: 1em;
+}
+/* FOOTER */
+.footer {
+	margin-top: 3em;
+}
+.footer-div {
+	justify-content: space-between;
+	
+}
+.footer-div h4 {
+	font-size: 24px;
+	font-weight: 900;
+	color: #2D2640;
+}
+.footer-div i {
+	color: #6A6970;
+	font-size: 32px;
+	padding: 0 0 0 .75em;
+}
+.small-container {
+	height: 10vh;
+	background-color: #2D2640;
+}
+.small {
+	color: #fff;
+}
